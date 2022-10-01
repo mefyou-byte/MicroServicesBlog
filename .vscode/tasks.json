@@ -6,7 +6,7 @@
 			"script": "start",
 			"path": "client",
 			"problemMatcher": [],
-			"label": "npm: start - client",
+			"label": "client",
 			"detail": "react-scripts start"
 		}, 
 		{
@@ -14,36 +14,41 @@
 			"script": "start",
 			"path": "comments",
 			"problemMatcher": [],
-			"label": "npm: start - comments",
+			"label": "comments",
 		}, 
 		{
 			"type": "npm",
 			"script": "start",
 			"path": "event-bus",
 			"problemMatcher": [],
-			"label": "npm: start - event-bus",
+			"label": "event-bus",
 		}, 
 		{
 			"type": "npm",
 			"script": "start",
 			"path": "posts",
 			"problemMatcher": [],
-			"label": "npm: start - posts",
+			"label": "posts",
 		}, 
 		{
 			"type": "npm",
 			"script": "start",
 			"path": "query",
 			"problemMatcher": [],
-			"label": "npm: start - query",
+			"label": "query",
 		}, 
 		{
 			"type": "npm",
 			"script": "start",
 			"path": "moderation",
 			"problemMatcher": [],
-			"label": "npm: start - moderation",
-		}
+			"label": "moderation",
+		}, 
+
+		{
+			"label": "Start All services",
+			"dependsOn": ["client", "comments", "posts", "event-bus", "query", "moderation"]
+		  }
 	]
 
 	
