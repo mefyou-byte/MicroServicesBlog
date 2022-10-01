@@ -1,0 +1,50 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "client",
+			"problemMatcher": [],
+			"label": "npm: start - client",
+			"detail": "react-scripts start"
+		}, 
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "comments",
+			"problemMatcher": [],
+			"label": "npm: start - comments",
+		}, 
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "event-bus",
+			"problemMatcher": [],
+			"label": "npm: start - event-bus",
+		}, 
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "posts",
+			"problemMatcher": [],
+			"label": "npm: start - posts",
+		}, 
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "query",
+			"problemMatcher": [],
+			"label": "npm: start - query",
+		}, 
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "moderation",
+			"problemMatcher": [],
+			"label": "npm: start - moderation",
+		}
+	]
+
+	
+}
